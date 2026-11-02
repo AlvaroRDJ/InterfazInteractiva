@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/titulo_registro"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edad"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/label_tecnologias"
+        android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/cbJava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/java"/>
+
+        <CheckBox
+            android:id="@+id/cbKotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kotlin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/label_turno"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgTurno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rbManana"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbManana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manana"/>
+
+        <RadioButton
+            android:id="@+id/rbTarde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tarde"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/enviar"/>
+</LinearLayout>

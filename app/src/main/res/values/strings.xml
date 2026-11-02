@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InterfazInteractiva</string>
+    <!-- Pantalla Formulario -->
+    <string name="titulo_registro">Registro de usuario</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="label_tecnologias">Tecnologías</string>
+    <string name="java">Java</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="label_turno">Turno</string>
+    <string name="manana">Mañana</string>
+    <string name="tarde">Tarde</string>
+    <string name="enviar">Enviar</string>
+    <string name="error_campos">Debes rellenar el nombre y la edad</string>
+
+    <!-- Pantalla Resultado -->
+    <string name="titulo_resultado">Resultado del registro</string>
+    <string name="res_nombre">Nombre: %1$s</string>
+    <string name="res_edad">Edad: %1$s</string>
+    <string name="res_cursos">Cursos: %1$s</string>
+    <string name="res_turno">Turno: %1$s</string>
+    <string name="res_volver">Volver</string>
+</resources>
